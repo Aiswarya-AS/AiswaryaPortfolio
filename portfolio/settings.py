@@ -26,7 +26,7 @@ SECRET_KEY = 'jm-$r24)xepbta(8(h^a$+)yf2ixjs!#mzczqzse+#hm!d_=gp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thawing-fjord-06656.herokuapp.com']
 
 
 # Application definition
