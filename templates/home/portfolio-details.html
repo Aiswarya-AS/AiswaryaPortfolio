@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% block title %}Aiswarya | Portfolio-Details {% endblock %}
+    
+<main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+    <div class="container">
+
+        <div class="row">
+
+        <div class="col-lg-8">
+            <h2 class="portfolio-title">Portfolio Details</h2>
+
+            <div class="portfolio-details-slider swiper-container">
+            <div class="swiper-wrapper align-items-center" style="min-height: 480px; max-height: 480px;">
+
+                <div class="swiper-slide">
+                <img src="{{ details.image_1.url }}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                <img src="{{ details.image_2.url }}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                <img src="{{ details.image_3.url }}" alt="">
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 portfolio-info">
+            <h3>Project information</h3>
+            <ul>
+            <li><strong>Category</strong>:{{ details.category }}</li>
+            <li><strong>Project URL</strong>: <a href="{{ details.project_url }}">{{ details.project_url }}</a></li>
+            </ul>
+
+            <p>
+                {{ details.description }}
+            </p>
+        </div>
+
+        </div>
+
+    </div>
+    </div><!-- End Portfolio Details -->
+
+</main><!-- End #main -->
+
+
+
+{% endblock %}
