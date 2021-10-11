@@ -1,0 +1,237 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$wqfaNjNB2U3L$aXlh96vaONqvcM5lKU6wGZ11YfJhVatYSzgNeOgiWjc=",
+        "last_login": "2021-10-11T12:04:17Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "aiswaryaasubash@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-10-11T12:03:44Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bxbmzfgxycmd6iwge4r3mqa9kg279c6p",
+    "fields": {
+        "session_data": "NmQ0ZGE1ZDVjNzUyOGQ1OGZkMTg2MmEwMDA3ZmExOWNhOWU0OWQxYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1MmI5MmExNTdlZTcxMTBhMTgwMDBjMWZhNTlkMTNiODgwN2I3NGE0In0=",
+        "expire_date": "2021-10-25T12:04:17.341Z"
+    }
+},
+{
+    "model": "home.skill",
+    "pk": 1,
+    "fields": {
+        "skill_name": "HTML",
+        "value": 90
+    }
+},
+{
+    "model": "home.skill",
+    "pk": 2,
+    "fields": {
+        "skill_name": "Css",
+        "value": 80
+    }
+},
+{
+    "model": "home.education",
+    "pk": 1,
+    "fields": {
+        "course_name": "10th",
+        "start_year": 2016,
+        "end_year": 2016,
+        "college_name": "M.A.M.H.S.S Koratty",
+        "description": "got score 98%"
+    }
+},
+{
+    "model": "home.experience",
+    "pk": 1,
+    "fields": {
+        "role": "Fresher",
+        "start_year": 2021,
+        "end_year": 2021,
+        "company_name": null,
+        "point_1": "Started to learing Python and Django",
+        "point_2": "Used MOOCS for learning new things",
+        "point_3": "Currently searching for opportunity"
+    }
+},
+{
+    "model": "home.portfoliodetail",
+    "pk": 1,
+    "fields": {
+        "project_name": "Internshalla Scrapping",
+        "category": "Web Scrapping",
+        "project_url": "https://github.com/Aiswarya-AS/Web_Scrapper-internshalla-",
+        "description": "Internshala Scrapping using Django",
+        "image_1": "image/21/10/11/3.png",
+        "image_2": "image/21/10/11/1.png",
+        "image_3": "image/21/10/11/2.png"
+    }
+},
+{
+    "model": "home.portfoliodetail",
+    "pk": 2,
+    "fields": {
+        "project_name": "Car Zone",
+        "category": "Website",
+        "project_url": "https://safe-fortress-92725.herokuapp.com/",
+        "description": "This is carzone project",
+        "image_1": "image/21/10/11/car1.PNG",
+        "image_2": "image/21/10/11/car2.PNG",
+        "image_3": "image/21/10/11/car3.PNG"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-10-11T12:04:35.491Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "home",
+            "skill"
+        ],
+        "object_id": "1",
+        "object_repr": "Skill object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-10-11T12:04:50.183Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "home",
+            "skill"
+        ],
+        "object_id": "2",
+        "object_repr": "Skill object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-10-11T12:21:37.053Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "home",
+            "education"
+        ],
+        "object_id": "1",
+        "object_repr": "Education object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-10-11T12:22:32.347Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "home",
+            "experience"
+        ],
+        "object_id": "1",
+        "object_repr": "Experience object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-10-11T13:11:06.564Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-10-11T13:13:38.636Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-10-11T13:17:00.902Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "home",
+            "portfoliodetail"
+        ],
+        "object_id": "1",
+        "object_repr": "Internshalla Scrapping",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-10-11T13:18:53.119Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "home",
+            "portfoliodetail"
+        ],
+        "object_id": "2",
+        "object_repr": "Car Zone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
